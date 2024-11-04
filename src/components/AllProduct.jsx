@@ -4,7 +4,7 @@ import Card from './Card';
 
 
 export default function AllProduct() {
-    const navigate = useNavigate();
+   
     const data = useLoaderData();
     console.log(data)
     const { category } = useParams();
@@ -28,14 +28,7 @@ export default function AllProduct() {
                     
                  ))}
             </div>
-             <div className='w-11/12 mx-auto'>
-                 <button 
-                     onClick={() => navigate('/product')} 
-                     className='btn bg-lime-400 mt-7 mb-7 text-white'
-                 >
-                     View All
-                 </button>
-             </div>
+             
             
          </div> 
          
