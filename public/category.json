@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "category": "All Product",
+      "link": "/"
+    },
+    {
+      "id": 2,
+      "category": "Laptops",
+      "link": "/category/Laptops"
+    },
+    {
+      "id": 3,
+      "category": "Smartphones",
+      "link": "/category/Smartphones"
+    },
+    {
+      "id": 4,
+      "category": "Accessories",
+      "link": "/category/Accessories"
+    },
+  
+    {
+      "id": 5,
+      "category": "Smartwatches",
+      "link": "/category/Smartwatches"
+    },
+    
+    {
+      "id": 6,
+      "category": "MacBooks",
+      "link": "/category/MacBooks"
+    },
+    {
+      "id": 7,
+      "category": "IPhone",
+      "link": "/category/IPhone"
+    }
+    
+  ]

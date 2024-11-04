@@ -1,0 +1,887 @@
+[
+    {
+      "product_id": "1",
+      "product_title": "UltraBook Pro 14",
+      "product_image": "https://i.ibb.co.com/L5VkWHw/download.png",
+      "category": "Laptops",
+      "price": 1299.99,
+      "description": "A powerful and lightweight ultrabook with a 14-inch Retina display.",
+      "specification": [
+        {"name": "Processor", "value": "Intel Core i7 11th Gen"},
+        {"name": "RAM", "value": "16GB"},
+        {"name": "Storage", "value": "512GB SSD"},
+        {"name": "Display", "value": "14-inch Retina"},
+        {"name": "Battery Life", "value": "12 hours"}
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "other_fields": {
+        "color": "Silver",
+        "weight": "1.2kg",
+        "brand": "TechGear",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "2",
+      "product_title": "Gaming Beast 17",
+      "product_image": "https://i.ibb.co.com/mHDhcWg/download-1.png",
+      "category": "Laptops",
+      "price": 1999.99,
+      "description": "A high-performance gaming laptop with a 17-inch 4K display.",
+      "specification": [
+        {"name": "Processor", "value": "Intel Core i9 12th Gen"},
+        {"name": "RAM", "value": "32GB"},
+        {"name": "Storage", "value": "1TB SSD"},
+        {"name": "Graphics", "value": "NVIDIA GeForce RTX 3080"},
+        {"name": "Display", "value": "17-inch 4K"}
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "other_fields": {
+        "color": "Black",
+        "weight": "3.0kg",
+        "brand": "GameMax",
+        "warranty": "2 Years"
+      }
+    },
+    {
+      "product_id": "3",
+      "product_title": "Business Elite X15",
+      "product_image": "https://i.ibb.co.com/Lp06Kh8/download-2.jpg",
+      "category": "Laptops",
+      "price": 1499.99,
+      "description": "A sleek and professional laptop with top-notch security features.",
+      "specification": [
+        {"name": "Processor", "value": "Intel Core i7 10th Gen"},
+        {"name": "RAM", "value": "16GB"},
+        {"name": "Storage", "value": "512GB SSD"},
+        {"name": "Display", "value": "15.6-inch Full HD"},
+        {"name": "Battery Life", "value": "15 hours"}
+      ],
+      "availability": false,
+      "rating": 4.6,
+      "other_fields": {
+        "color": "Space Gray",
+        "weight": "1.5kg",
+        "brand": "BizPro",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "4",
+      "product_title": "Student Laptop Lite 13",
+      "product_image": "https://i.ibb.co.com/C1FLyTV/download-3.jpg",
+      "category": "Laptops",
+      "price": 599.99,
+      "description": "An affordable, lightweight laptop ideal for students.",
+      "specification": [
+        {"name": "Processor", "value": "Intel Core i5 10th Gen"},
+        {"name": "RAM", "value": "8GB"},
+        {"name": "Storage", "value": "256GB SSD"},
+        {"name": "Display", "value": "13.3-inch HD"},
+        {"name": "Battery Life", "value": "10 hours"}
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "other_fields": {
+        "color": "Blue",
+        "weight": "1.1kg",
+        "brand": "EduLaptop",
+        "warranty": "6 Months"
+      }
+    },
+    {
+      "product_id": "5",
+      "product_title": "Creator's Hub 16",
+      "product_image": "https://i.ibb.co.com/FYqw35W/download-4.jpg",
+      "category": "Laptops",
+      "price": 1799.99,
+      "description": "A laptop designed for creators, with a 16-inch high-resolution display and powerful GPU.",
+      "specification": [
+        {"name": "Processor", "value": "AMD Ryzen 9"},
+        {"name": "RAM", "value": "32GB"},
+        {"name": "Storage", "value": "1TB SSD"},
+        {"name": "Graphics", "value": "NVIDIA RTX 3060"},
+        {"name": "Display", "value": "16-inch QHD"}
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "other_fields": {
+        "color": "Gray",
+        "weight": "2.5kg",
+        "brand": "CreateTech",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "6",
+      "product_title": "Everyday Laptop E14",
+      "product_image": "https://i.ibb.co.com/z5NXmKh/download-5.jpg",
+      "category": "Laptops",
+      "price": 699.99,
+      "description": "A reliable and affordable laptop for everyday use.",
+      "specification": [
+        {"name": "Processor", "value": "Intel Core i5 11th Gen"},
+        {"name": "RAM", "value": "8GB"},
+        {"name": "Storage", "value": "256GB SSD"},
+        {"name": "Display", "value": "14-inch Full HD"},
+        {"name": "Battery Life", "value": "10 hours"}
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "other_fields": {
+        "color": "Silver",
+        "weight": "1.4kg",
+        "brand": "SimpleTech",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "7",
+      "product_title": "Convertible Flex 13",
+      "product_image": "https://i.ibb.co.com/LhjZpZc/download-6.jpg",
+      "category": "Laptops",
+      "price": 849.99,
+      "description": "A versatile 2-in-1 laptop with a 360-degree hinge for various modes.",
+      "specification": [
+        {"name": "Processor", "value": "Intel Core i5 10th Gen"},
+        {"name": "RAM", "value": "8GB"},
+        {"name": "Storage", "value": "512GB SSD"},
+        {"name": "Display", "value": "13.3-inch Full HD Touchscreen"},
+        {"name": "Battery Life", "value": "9 hours"}
+      ],
+      "availability": false,
+      "rating": 4.5,
+      "other_fields": {
+        "color": "Black",
+        "weight": "1.3kg",
+        "brand": "FlexTech",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "8",
+      "product_title": "EcoBook 15",
+      "product_image": "https://i.ibb.co.com/GC25pr1/download-7.jpg",
+      "category": "Laptops",
+      "price": 749.99,
+      "description": "An eco-friendly laptop made with recyclable materials and energy-efficient components.",
+      "specification": [
+        {"name": "Processor", "value": "Intel Core i5 11th Gen"},
+        {"name": "RAM", "value": "8GB"},
+        {"name": "Storage", "value": "256GB SSD"},
+        {"name": "Display", "value": "15.6-inch Full HD"},
+        {"name": "Battery Life", "value": "14 hours"}
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "other_fields": {
+        "color": "Green",
+        "weight": "1.8kg",
+        "brand": "EcoBrand",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "9",
+      "product_title": "Portable Business Pro",
+      "product_image": "https://i.ibb.co.com/FBFTD92/download-8.jpg",
+      "category": "Laptops",
+      "price": 1599.99,
+      "description": "A compact yet powerful business laptop, ideal for traveling professionals.",
+      "specification": [
+        {"name": "Processor", "value": "Intel Core i7 11th Gen"},
+        {"name": "RAM", "value": "16GB"},
+        {"name": "Storage", "value": "512GB SSD"},
+        {"name": "Display", "value": "13.3-inch Full HD"},
+        {"name": "Battery Life", "value": "12 hours"}
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "other_fields": {
+      "color": "Green",
+      "weight": "1.8kg",
+      "brand": "EcoBrand",
+      "warranty": "1 Year"
+
+      }
+    },
+    {
+    "product_id": "10",
+    "product_title": "Galaxy S Ultra",
+    "product_image": "https://i.ibb.co.com/7Nw7CVk/images-9.jpg",
+    "category": "Smartphones",
+    "price": 1199.99,
+    "description": "A powerful smartphone with a stunning camera and high-speed processing.",
+    "specification": [
+      {"name": "Processor", "value": "Snapdragon 888"},
+      {"name": "RAM", "value": "12GB"},
+      {"name": "Storage", "value": "256GB"},
+      {"name": "Camera", "value": "108MP Quad Camera"},
+      {"name": "Battery", "value": "5000mAh"}
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "other_fields": {
+      "color": "Phantom Black",
+      "OS": "Android 11",
+      "warranty": "1 Year"
+    }
+  },
+  {
+    "product_id": "11",
+    "product_title": "iPhone Pro Max",
+    "product_image": "https://i.ibb.co.com/q139n5L/images-8.jpg",
+    "category": "Smartphones",
+    "price": 1299.99,
+    "description": "Apple's latest iPhone with improved cameras and longer battery life.",
+    "specification": [
+      {"name": "Processor", "value": "A14 Bionic"},
+      {"name": "RAM", "value": "6GB"},
+      {"name": "Storage", "value": "512GB"},
+      {"name": "Camera", "value": "12MP Triple Camera"},
+      {"name": "Battery", "value": "4500mAh"}
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "other_fields": {
+      "color": "Pacific Blue",
+      "OS": "iOS 14",
+      "warranty": "1 Year"
+    }
+  },
+  {
+    "product_id": "12",
+    "product_title": "Pixel 5 Pro",
+    "product_image": "https://i.ibb.co.com/b5wXL6h/images-7.jpg",
+    "category": "Smartphones",
+    "price": 899.99,
+    "description": "Google's flagship phone with superior software and camera quality.",
+    "specification": [
+      {"name": "Processor", "value": "Snapdragon 765G"},
+      {"name": "RAM", "value": "8GB"},
+      {"name": "Storage", "value": "128GB"},
+      {"name": "Camera", "value": "12.2MP Dual Camera"},
+      {"name": "Battery", "value": "4080mAh"}
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "other_fields": {
+      "color": "Just Black",
+      "OS": "Android 11",
+      "warranty": "1 Year"
+    }
+  },
+  {
+    "product_id": "13",
+    "product_title": "OnePlus 9T",
+    "product_image": "https://i.ibb.co.com/7C7N835/images-6.jpg",
+    "category": "Smartphones",
+    "price": 749.99,
+    "description": "Fast and smooth with high refresh rate and excellent battery life.",
+    "specification": [
+      {"name": "Processor", "value": "Snapdragon 870"},
+      {"name": "RAM", "value": "12GB"},
+      {"name": "Storage", "value": "256GB"},
+      {"name": "Camera", "value": "48MP Triple Camera"},
+      {"name": "Battery", "value": "4500mAh"}
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "other_fields": {
+      "color": "Lunar Silver",
+      "OS": "OxygenOS 11",
+      "warranty": "1 Year"
+    }
+  },
+  {
+    "product_id": "14",
+    "product_title": "Xiaomi Mi 11 Ultra",
+    "product_image": "https://i.ibb.co.com/r5V1rcg/images-5.jpg",
+    "category": "Smartphones",
+    "price": 799.99,
+    "description": "A premium device with great performance and battery efficiency.",
+    "specification": [
+      {"name": "Processor", "value": "Snapdragon 888"},
+      {"name": "RAM", "value": "8GB"},
+      {"name": "Storage", "value": "256GB"},
+      {"name": "Camera", "value": "50MP Triple Camera"},
+      {"name": "Battery", "value": "5000mAh"}
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "other_fields": {
+      "color": "Ceramic White",
+      "OS": "MIUI 12",
+      "warranty": "1 Year"
+    }
+  },
+  {
+    "product_id": "15",
+    "product_title": "Oppo Reno 6",
+    "product_image": "https://i.ibb.co.com/7pkgtpq/images-4.jpg",
+    "category": "Smartphones",
+    "price": 499.99,
+    "description": "Stylish and fast with a high refresh rate and AI-powered camera.",
+    "specification": [
+      {"name": "Processor", "value": "MediaTek Dimensity 900"},
+      {"name": "RAM", "value": "8GB"},
+      {"name": "Storage", "value": "128GB"},
+      {"name": "Camera", "value": "64MP Triple Camera"},
+      {"name": "Battery", "value": "4300mAh"}
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "other_fields": {
+      "color": "Aurora",
+      "OS": "ColorOS 11",
+      "warranty": "1 Year"
+    }
+  },
+  {
+    "product_id": "16",
+    "product_title": "Realme GT Master Edition",
+    "product_image": "https://i.ibb.co.com/DDBmhXk/images-2.jpg",
+    "category": "Smartphones",
+    "price": 399.99,
+    "description": "An affordable 5G phone with fast charging and smooth performance.",
+    "specification": [
+      {"name": "Processor", "value": "Snapdragon 778G"},
+      {"name": "RAM", "value": "6GB"},
+      {"name": "Storage", "value": "128GB"},
+      {"name": "Camera", "value": "64MP Triple Camera"},
+      {"name": "Battery", "value": "4300mAh"}
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "other_fields": {
+      "color": "Voyager Grey",
+      "OS": "Realme UI 2.0",
+      "warranty": "1 Year"
+    }
+  },
+  {
+    "product_id": "17",
+    "product_title": "Sony Xperia 1 III",
+    "product_image": "https://i.ibb.co.com/Bc54RL7/images-3.jpg",
+    "category": "Smartphones",
+    "price": 1199.99,
+    "description": "A cinematic phone with a stunning 4K OLED display and great cameras.",
+    "specification": [
+      {"name": "Processor", "value": "Snapdragon 888"},
+      {"name": "RAM", "value": "12GB"},
+      {"name": "Storage", "value": "256GB"},
+      {"name": "Camera", "value": "12MP Triple Camera"},
+      {"name": "Battery", "value": "4500mAh"}
+    ],
+    "availability": false,
+    "rating": 4.8,
+    "other_fields": {
+      "color": "Frosted Black",
+      "OS": "Android 11",
+      "warranty": "1 Year"
+    }
+  },
+  {
+    "product_id": "18",
+    "product_title": "Vivo X60 Pro",
+    "product_image": "https://i.ibb.co.com/1zN02Pt/download-26.jpg",
+    "category": "Smartphones",
+    "price": 799.99,
+    "description": "A camera-centric phone with Zeiss optics and excellent low-light performance.",
+    "specification": [
+      {"name": "Processor", "value": "Snapdragon 870"},
+      {"name": "RAM", "value": "12GB"},
+      {"name": "Storage", "value": "256GB"},
+      {"name": "Camera", "value": "48MP Triple Camera"},
+      {"name": "Battery", "value": "4200mAh"}
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "other_fields": {
+      "color": "Shimmer Blue",
+      "OS": "Funtouch OS 11",
+      "warranty": "1 Year"
+    }
+    },
+    {
+      "product_id": "19",
+      "product_title": "Apple Watch Series 7",
+      "product_image": "https://i.ibb.co.com/7j0V4vf/download-27.jpg",
+      "category": "Smartwatches",
+      "price": 399.99,
+      "description": "The latest Apple Watch with larger display and advanced health tracking.",
+      "specification": [
+        {"name": "Display", "value": "Always-On Retina Display"},
+        {"name": "Size", "value": "41mm"},
+        {"name": "Battery Life", "value": "18 hours"},
+        {"name": "Water Resistance", "value": "50m"}
+      ],
+      "availability": true,
+      "rating": 4.9,
+      "other_fields": {
+        "color": "Midnight",
+        "OS": "watchOS 8",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "20",
+      "product_title": "Samsung Galaxy Watch 4",
+      "product_image": "https://i.ibb.co.com/3M2Vfv2/download-28.jpg",
+      "category": "Smartwatches",
+      "price": 299.99,
+      "description": "Samsung's smartwatch with health tracking and body composition analysis.",
+      "specification": [
+        {"name": "Display", "value": "Super AMOLED"},
+        {"name": "Size", "value": "40mm"},
+        {"name": "Battery Life", "value": "40 hours"},
+        {"name": "Water Resistance", "value": "50m"}
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "other_fields": {
+        "color": "Silver",
+        "OS": "Wear OS",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "21",
+      "product_title": "Fitbit Versa 3",
+      "product_image": "https://i.ibb.co.com/6yny4Zy/download-29.jpg",
+      "category": "Smartwatches",
+      "price": 229.95,
+      "description": "A smartwatch with built-in GPS and 24/7 heart rate tracking.",
+      "specification": [
+        {"name": "Display", "value": "AMOLED"},
+        {"name": "Size", "value": "40mm"},
+        {"name": "Battery Life", "value": "6 days"},
+        {"name": "Water Resistance", "value": "50m"}
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "other_fields": {
+        "color": "Black",
+        "OS": "Fitbit OS",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "22",
+      "product_title": "Garmin Venu 2",
+      "product_image": "https://i.ibb.co.com/b1gGzyB/download-30.jpg",
+      "category": "Smartwatches",
+      "price": 399.99,
+      "description": "A smartwatch with health monitoring features and AMOLED display.",
+      "specification": [
+        {"name": "Display", "value": "AMOLED"},
+        {"name": "Size", "value": "45mm"},
+        {"name": "Battery Life", "value": "11 days"},
+        {"name": "Water Resistance", "value": "50m"}
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "other_fields": {
+        "color": "Granite Blue",
+        "OS": "Garmin OS",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "23",
+      "product_title": "Amazfit GTR 3",
+      "product_image": "https://i.ibb.co.com/pyGcqGw/download-31.jpg",
+      "category": "Smartwatches",
+      "price": 179.99,
+      "description": "Stylish smartwatch with a long battery life and health tracking features.",
+      "specification": [
+        {"name": "Display", "value": "AMOLED"},
+        {"name": "Size", "value": "45mm"},
+        {"name": "Battery Life", "value": "21 days"},
+        {"name": "Water Resistance", "value": "50m"}
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "other_fields": {
+        "color": "Black",
+        "OS": "Zepp OS",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "24",
+      "product_title": "TicWatch Pro 3",
+      "product_image": "https://i.ibb.co.com/RcccwWg/download-32.jpg",
+      "category": "Smartwatches",
+      "price": 299.99,
+      "description": "Durable smartwatch with long battery life and dual-layer display.",
+      "specification": [
+        {"name": "Display", "value": "AMOLED + LCD"},
+        {"name": "Size", "value": "47mm"},
+        {"name": "Battery Life", "value": "3 days (smart mode)"},
+        {"name": "Water Resistance", "value": "IP68"}
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "other_fields": {
+        "color": "Shadow Black",
+        "OS": "Wear OS",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "25",
+      "product_title": "Huawei Watch GT 2 Pro",
+      "product_image": "https://i.ibb.co.com/wJ8LQJc/download-33.jpg",
+      "category": "Smartwatches",
+      "price": 249.99,
+      "description": "Elegant design with sapphire glass and long battery life.",
+      "specification": [
+        {"name": "Display", "value": "AMOLED"},
+        {"name": "Size", "value": "46mm"},
+        {"name": "Battery Life", "value": "14 days"},
+        {"name": "Water Resistance", "value": "50m"}
+      ],
+      "availability": false,
+      "rating": 4.7,
+      "other_fields": {
+        "color": "Nebula Gray",
+        "OS": "Lite OS",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "26",
+      "product_title": "Withings Steel HR Sport",
+      "product_image": "https://i.ibb.co.com/CBCk8jc/images-10.jpg",
+      "category": "Smartwatches",
+      "price": 199.95,
+      "description": "Hybrid smartwatch with fitness tracking and long battery life.",
+      "specification": [
+        {"name": "Display", "value": "Analog + OLED"},
+        {"name": "Size", "value": "40mm"},
+        {"name": "Battery Life", "value": "25 days"},
+        {"name": "Water Resistance", "value": "50m"}
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "other_fields": {
+        "color": "Black",
+        "OS": "Withings OS",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "27",
+      "product_title": "Fossil Gen 6",
+      "product_image": "https://i.ibb.co.com/RcccwWg/download-32.jpg",
+      "category": "Smartwatches",
+      "price": 299.00,
+      "description": "Fossil's latest smartwatch with Wear OS and health monitoring.",
+      "specification": [
+        {"name": "Display", "value": "AMOLED"},
+        {"name": "Size", "value": "44mm"},
+        {"name": "Battery Life", "value": "24 hours"},
+        {"name": "Water Resistance", "value": "30m"}
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "other_fields": {
+        "color": "Gunmetal",
+        "OS": "Wear OS",
+        "warranty": "1 Year"
+      }
+    },
+    {
+      "product_id": "28",
+      "product_title": "Polar Ignite 2",
+      "product_image": "https://i.ibb.co.com/pyGcqGw/download-31.jpg",
+      "category": "Smartwatches",
+      "price": 229.95,
+      "description": "Fitness-focused smartwatch with personalized guidance and insights.",
+      "specification": [
+        {"name": "Display", "value": "TFT"},
+        {"name": "Size", "value": "43mm"},
+        {"name": "Battery Life", "value": "5 days"},
+        {"name": "Water Resistance", "value": "30m"}
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "other_fields": {
+        "color": "Pink Rose",
+        "OS": "Polar OS",
+        "warranty": "1 Year"
+      }
+    },
+        {
+          "product_id": "29",
+          "product_title": "MacBook Air M1",
+          "product_image": "https://i.ibb.co.com/MsXCmg2/images.jpg",
+          "category": "MacBooks",
+          "price": 999.99,
+          "description": "13-inch MacBook Air with Apple M1 chip for excellent performance and battery life.",
+          "specification": [
+            {"name": "Processor", "value": "Apple M1"},
+            {"name": "RAM", "value": "8GB"},
+            {"name": "Storage", "value": "256GB SSD"},
+            {"name": "Display", "value": "13.3-inch Retina Display"},
+            {"name": "Battery Life", "value": "Up to 18 hours"}
+          ],
+          "availability": true,
+          "rating": 4.9,
+          "other_fields": {
+            "color": "Space Gray",
+            "OS": "macOS",
+            "warranty": "1 Year"
+          }
+        },
+        {
+          "product_id": "30",
+          "product_title": "MacBook Pro 13 M1",
+          "product_image": "https://i.ibb.co.com/9tTDZfv/download-10.jpg",
+          "category": "MacBooks",
+          "price": 1299.99,
+          "description": "13-inch MacBook Pro with Apple M1 chip, ideal for heavy workloads.",
+          "specification": [
+            {"name": "Processor", "value": "Apple M1"},
+            {"name": "RAM", "value": "8GB"},
+            {"name": "Storage", "value": "256GB SSD"},
+            {"name": "Display", "value": "13.3-inch Retina Display"},
+            {"name": "Battery Life", "value": "Up to 20 hours"}
+          ],
+          "availability": true,
+          "rating": 4.8,
+          "other_fields": {
+            "color": "Silver",
+            "OS": "macOS",
+            "warranty": "1 Year"
+          }
+        },
+        {
+          "product_id": "31",
+          "product_title": "MacBook Pro 14 M1 Pro",
+          "product_image": "https://i.ibb.co.com/QXRM4Sj/download-15.jpg",
+          "category": "MacBooks",
+          "price": 1999.99,
+          "description": "14-inch MacBook Pro with M1 Pro chip, offering high performance for professionals.",
+          "specification": [
+            {"name": "Processor", "value": "Apple M1 Pro"},
+            {"name": "RAM", "value": "16GB"},
+            {"name": "Storage", "value": "512GB SSD"},
+            {"name": "Display", "value": "14.2-inch Liquid Retina XDR Display"},
+            {"name": "Battery Life", "value": "Up to 17 hours"}
+          ],
+          "availability": true,
+          "rating": 4.9,
+          "other_fields": {
+            "color": "Space Gray",
+            "OS": "macOS",
+            "warranty": "1 Year"
+          }
+        },
+        {
+          "product_id": "32",
+          "product_title": "MacBook Pro 16 M1 Pro",
+          "product_image": "https://i.ibb.co.com/hggkkxk/download-14.jpg",
+          "category": "MacBooks",
+          "price": 2499.99,
+          "description": "16-inch MacBook Pro with M1 Pro chip, designed for demanding tasks.",
+          "specification": [
+            {"name": "Processor", "value": "Apple M1 Pro"},
+            {"name": "RAM", "value": "16GB"},
+            {"name": "Storage", "value": "512GB SSD"},
+            {"name": "Display", "value": "16.2-inch Liquid Retina XDR Display"},
+            {"name": "Battery Life", "value": "Up to 21 hours"}
+          ],
+          "availability": true,
+          "rating": 4.9,
+          "other_fields": {
+            "color": "Silver",
+            "OS": "macOS",
+            "warranty": "1 Year"
+          }
+        },
+        {
+          "product_id": "33",
+          "product_title": "MacBook Air M2",
+          "product_image": "https://i.ibb.co.com/NnggcTz/download-13.jpg",
+          "category": "MacBooks",
+          "price": 1199.99,
+          "description": "13-inch MacBook Air with M2 chip, offering enhanced performance and energy efficiency.",
+          "specification": [
+            {"name": "Processor", "value": "Apple M2"},
+            {"name": "RAM", "value": "8GB"},
+            {"name": "Storage", "value": "256GB SSD"},
+            {"name": "Display", "value": "13.6-inch Liquid Retina Display"},
+            {"name": "Battery Life", "value": "Up to 18 hours"}
+          ],
+          "availability": true,
+          "rating": 4.7,
+          "other_fields": {
+            "color": "Midnight",
+            "OS": "macOS",
+            "warranty": "1 Year"
+          }
+        },
+        {
+          "product_id": "34",
+          "product_title": "MacBook Pro 13 M2",
+          "product_image": "https://i.ibb.co.com/WGBfttM/download-12.jpg",
+          "category": "MacBooks",
+          "price": 1299.99,
+          "description": "13-inch MacBook Pro with M2 chip for great performance and portability.",
+          "specification": [
+            {"name": "Processor", "value": "Apple M2"},
+            {"name": "RAM", "value": "8GB"},
+            {"name": "Storage", "value": "256GB SSD"},
+            {"name": "Display", "value": "13.3-inch Retina Display"},
+            {"name": "Battery Life", "value": "Up to 20 hours"}
+          ],
+          "availability": true,
+          "rating": 4.8,
+          "other_fields": {
+            "color": "Space Gray",
+            "OS": "macOS",
+            "warranty": "1 Year"
+          }
+        },
+        {
+          "product_id": "35",
+          "product_title": "MacBook Pro 14 M1 Max",
+          "product_image": "https://i.ibb.co.com/k3fSpbK/download-11.jpg",
+          "category": "MacBooks",
+          "price": 2899.99,
+          "description": "High-performance 14-inch MacBook Pro with M1 Max chip for demanding tasks.",
+          "specification": [
+            {"name": "Processor", "value": "Apple M1 Max"},
+            {"name": "RAM", "value": "32GB"},
+            {"name": "Storage", "value": "1TB SSD"},
+            {"name": "Display", "value": "14.2-inch Liquid Retina XDR Display"},
+            {"name": "Battery Life", "value": "Up to 17 hours"}
+          ],
+          "availability": true,
+          "rating": 4.9,
+          "other_fields": {
+            "color": "Silver",
+            "OS": "macOS",
+            "warranty": "1 Year"
+          }
+        },
+        {
+          "product_id": "36",
+          "product_title": "MacBook Pro 16 M1 Max",
+          "product_image": "https://i.ibb.co.com/9tTDZfv/download-10.jpg",
+          "category": "MacBooks",
+          "price": 3299.99,
+          "description": "16-inch MacBook Pro with M1 Max chip, perfect for creative professionals.",
+          "specification": [
+            {"name": "Processor", "value": "Apple M1 Max"},
+            {"name": "RAM", "value": "32GB"},
+            {"name": "Storage", "value": "1TB SSD"},
+            {"name": "Display", "value": "16.2-inch Liquid Retina XDR Display"},
+            {"name": "Battery Life", "value": "Up to 21 hours"}
+          ],
+          "availability": false,
+          "rating": 5.0,
+          "other_fields": {
+            "color": "Space Gray",
+            "OS": "macOS",
+            "warranty": "1 Year"
+          }
+        },
+        {
+          "product_id": "37",
+          "product_title": "MacBook Air M1 (Refurbished)",
+          "product_image": "https://i.ibb.co.com/3cB3jWX/download-9.jpg",
+          "category": "MacBooks",
+          "price": 849.99,
+          "description": "13-inch refurbished MacBook Air with M1 chip, affordable and powerful.",
+          "specification": [
+            {"name": "Processor", "value": "Apple M1"},
+            {"name": "RAM", "value": "8GB"},
+            {"name": "Storage", "value": "256GB SSD"},
+            {"name": "Display", "value": "13.3-inch Retina Display"},
+            {"name": "Battery Life", "value": "Up to 18 hours"}
+          ],
+          "availability": false,
+          "rating": 5.0,
+          "other_fields": {
+            "color": "Space Gray",
+            "OS": "macOS",
+            "warranty": "1 Year"
+          }
+        },
+            {
+              "product_id": "38",
+              "product_title": "iPhone 14",
+              "product_image": "https://i.ibb.co.com/xDx9SG7/download-23.jpg",
+              "category": "IPhone",
+              "price": 799.99,
+              "description": "The iPhone 14 features a stunning Super Retina XDR display, A15 Bionic chip, and an advanced dual-camera system.",
+              "specification": [
+                {"name": "Processor", "value": "A15 Bionic"},
+                {"name": "Display", "value": "6.1-inch Super Retina XDR"},
+                {"name": "Camera", "value": "12MP dual-camera system"},
+                {"name": "Battery Life", "value": "Up to 20 hours talk time"},
+                {"name": "Storage Options", "value": "128GB, 256GB, 512GB"}
+              ],
+              "availability": true,
+              "rating": 4.8,
+              "other_fields": {
+                "color": "Midnight",
+                "OS": "iOS",
+                "warranty": "1 Year"
+              }
+            },
+            {
+              "product_id": "39",
+              "product_title": "iPhone 14 Pro",
+              "product_image": "https://i.ibb.co.com/6cKGn0Q/download-24.jpg",
+              "category": "IPhone",
+              "price": 999.99,
+              "description": "The iPhone 14 Pro offers an innovative Dynamic Island, A16 Bionic chip, and a pro camera system for exceptional photography.",
+              "specification": [
+                {"name": "Processor", "value": "A16 Bionic"},
+                {"name": "Display", "value": "6.1-inch Super Retina XDR with ProMotion"},
+                {"name": "Camera", "value": "48MP triple-camera system"},
+                {"name": "Battery Life", "value": "Up to 23 hours talk time"},
+                {"name": "Storage Options", "value": "128GB, 256GB, 512GB, 1TB"}
+              ],
+              "availability": true,
+              "rating": 4.9,
+              "other_fields": {
+                "color": "Space Black",
+                "OS": "iOS",
+                "warranty": "1 Year"
+              }
+            },
+            {
+              "product_id": "40",
+              "product_title": "iPhone 14 Pro Max",
+              "product_image": "https://i.ibb.co.com/vJkPKRK/download-17.jpg",
+              "category": "IPhone",
+              "price": 1099.99,
+              "description": "The iPhone 14 Pro Max is the ultimate iPhone with a large display, A16 Bionic chip, and the best camera system.",
+              "specification": [
+                {"name": "Processor", "value": "A16 Bionic"},
+                {"name": "Display", "value": "6.7-inch Super Retina XDR with ProMotion"},
+                {"name": "Camera", "value": "48MP triple-camera system"},
+                {"name": "Battery Life", "value": "Up to 29 hours talk time"},
+                {"name": "Storage Options", "value": "128GB, 256GB, 512GB, 1TB"}
+              ],
+              "availability": true,
+              "rating": 5.0,
+              "other_fields": {
+                "color": "Gold",
+                "OS": "iOS",
+                "warranty": "1 Year"
+              }
+            }
+          ]
+          
+      
+  
+  
+
