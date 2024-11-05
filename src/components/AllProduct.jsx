@@ -15,7 +15,7 @@ export default function AllProduct() {
             const filteredByCategory = data.filter(product => product.category === category);
             setProducts(filteredByCategory);
         } else {
-            setProducts(data.slice(0, 6));
+            setProducts(data);
         }
     }, [category, data]);
    
