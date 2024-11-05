@@ -44,7 +44,7 @@ const Navbar = () => {
         
         <div className='flex gap-4'>
         
-        <FiShoppingCart />
+        <FiShoppingCart  />
         <GiSelfLove />
         </div>
         

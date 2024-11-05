@@ -2,11 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { FiShoppingCart } from "react-icons/fi";
 import { GiSelfLove } from "react-icons/gi";
-import { ToastContainer} from 'react-toastify';
-
-import 'react-toastify/dist/ReactToastify.css';
-import { addFavorite, getAllFavorites } from "./localStore";
-
+import { addFavorite } from "./localStore";
 const ProductDetails = () => {
    
   const data = useLoaderData(); 
@@ -71,9 +67,10 @@ const ProductDetails = () => {
               </p>
               <div className="flex items-center ">
                     <button onClick={()=>handleAddFavorite(product)} className="w-36  mt-4 flex items-center pl-2 gap-2 border rounded-xl bg-lime-400 py-3 ">
-                     Add to Cart<FiShoppingCart  />
-                  
+                     Add to Cart<FiShoppingCart  />;
+                     
                     </button>
+                  
                     <button className="ml-3 border py-3 px-3 mt-4 rounded-lg"><GiSelfLove/></button>  
               </div>
             </div>

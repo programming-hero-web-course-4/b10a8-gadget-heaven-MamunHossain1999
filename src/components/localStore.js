@@ -1,5 +1,5 @@
 
-
+import toast from "react-hot-toast"
 const getAllFavorites = ()=>{
     const all = localStorage.getItem('favorites')
     
@@ -21,6 +21,6 @@ const addFavorite=(product)=>{
     console.log(favorites)
     favorites.push(product)
     localStorage.setItem('favorites', JSON.stringify(favorites))
-
+    toast.success('Successfully added!');
 }
 export{getAllFavorites, addFavorite}
