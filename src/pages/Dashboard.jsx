@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { getAllFavorites } from "../components/localStore";
+import { getAllFavorites, getAllWishlist } from "../components/localStore";
 import group from "../assets/Group.png";
 import { ImCross } from "react-icons/im";
+import { NavLink } from "react-router-dom";
 
 const Dashboard = () => {
   const [showCards, setShowCards] = useState(true);
@@ -9,9 +10,15 @@ const Dashboard = () => {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    const favorites = getAllFavorites();
-    setProducts(favorites);
-  }, []);
+    // showCards অনুযায়ী ফেভারিটস বা উইশলিস্ট থেকে ডেটা সেট করা
+    if (showCards) {
+      const favorites = getAllFavorites();
+      setProducts(favorites);
+    } else {
+      const wishlist = getAllWishlist();
+      setProducts(wishlist);
+    }
+  }, [showCards]);
 
   const allRemove = () => {
     localStorage.clear();
@@ -94,9 +101,8 @@ const Dashboard = () => {
 
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-6  rounded-lg shadow-lg max-w-sm w-full">
+          <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
             <div className="flex justify-center">
-              {" "}
               <img className="w-24" src={group} alt="" />
             </div>
             <h2 className="text-2xl font-extrabold mb-4 text-center font-bold">
@@ -104,59 +110,53 @@ const Dashboard = () => {
             </h2>
             <p className="text-center text-2xl">Thanks for purchasing</p>
             <p className="mb-4 font-bold mt-3 text-center">
-              Total cost: <strong> ${totalCost.toFixed(2)}</strong>
+              Total cost: <strong>${totalCost.toFixed(2)}</strong>
             </p>
             <div className="flex justify-center space-x-3">
-              <button
-                onClick={allRemove}
-                className="px-4 flex  py-2 rounded-md bg-gray-300 hover:bg-gray-400 transition duration-300"
-              >
-                Close
-              </button>
+              <NavLink to='/'>
+                <button
+                  onClick={allRemove}
+                  className="px-4 flex py-2 rounded-md bg-gray-300 hover:bg-gray-400 transition duration-300"
+                >
+                  Close
+                </button>
+              </NavLink>
             </div>
           </div>
         </div>
       )}
 
       <div className="w-11/12 mx-auto mt-10">
-        {showCards ? (
-          products.length > 0 ? (
-            products.map((product) => (
-              <div key={product.id} className="hero bg-base-200 mb-4 lg:flex ">
-                <div className="w-full  lg:flex gap-8  flex-row items-center p-2 bg-gray-100 border rounded-lg">
-                  <img
-                    src={product.product_image || "default_image.jpg"}
-                    alt={product.product_title || "Product Image"}
-                    className="w-[150px] h-18 object-cover rounded-lg shadow-2xl"
-                  />
-                  <div className="">
-                    <h1 className="lg:text-2xl text-lg font-bold">
-                      {product.product_title || "Product Title"}
-                    </h1>
-                    <p className="py-2">
-                      {product.description ||
-                        "No description available for this product."}
-                    </p>
-                    <p className="text-xl">
-                      <strong>Price:</strong> ${product.price || "N/A"}
-                    </p>
-                    <p className="text-xl">
-                      <strong>Rating:</strong> {product.rating || "N/A"} / 5
-                    </p>
-                    <div className="flex items-center mt-4"></div>
-                  </div>
-                  <div className="lg:ml-[900px]">
-                    <ImCross className="w-56 h-16  text-red-600" />
-                  </div>
+        {products.length > 0 ? (
+          products.map((product) => (
+            <div key={product.id} className="hero bg-base-200 mb-4 lg:flex">
+              <div className="w-full lg:flex gap-8 flex-row items-center p-2 bg-gray-100 border rounded-lg">
+                <img
+                  src={product.product_image || "default_image.jpg"}
+                  alt={product.product_title || "Product Image"}
+                  className="w-[150px] h-18 object-cover rounded-lg shadow-2xl"
+                />
+                <div className="">
+                  <h1 className="lg:text-2xl text-lg font-bold">
+                    {product.product_title || "Product Title"}
+                  </h1>
+                  <p className="text-xl">
+                    <strong>Price:</strong> ${product.price || "N/A"}
+                  </p>
+                  <p className="text-xl">
+                    <strong>Rating:</strong> {product.rating || "N/A"} / 5
+                  </p>
+                  <div className="flex items-center mt-4"></div>
+                </div>
+                <div className="lg:ml-[900px]">
+                  <ImCross className="w-56 h-16 text-red-600" />
                 </div>
               </div>
-            ))
-          ) : (
-            <p className="text-center text-gray-500">No items in your cart.</p>
-          )
+            </div>
+          ))
         ) : (
           <p className="text-center text-gray-500">
-            Wishlist is currently empty.
+            {showCards ? "No items in your cart." : "Wishlist is currently empty."}
           </p>
         )}
       </div>

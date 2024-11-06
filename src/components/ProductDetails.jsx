@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { FiShoppingCart } from "react-icons/fi";
 import { GiSelfLove } from "react-icons/gi";
-import { addFavorite } from "./localStore";
+import { addFavorite, addWishlist } from "./localStore";
 const ProductDetails = () => {
    
   const data = useLoaderData(); 
@@ -24,6 +24,9 @@ const ProductDetails = () => {
   const handleAddFavorite = (product)=>{
     addFavorite(product)
     
+  }
+  const handleAddWishlist =(item)=>{
+    addWishlist(item)
   }
 
   const { product_title, product_image, category, price, description, rating } =
@@ -71,7 +74,7 @@ const ProductDetails = () => {
                      
                     </button>
                   
-                    <button className="ml-3 border py-3 px-3 mt-4 rounded-lg"><GiSelfLove/></button>  
+                    <button onClick={()=>handleAddWishlist(product)}  className="ml-3 border py-3 px-3 mt-4 rounded-lg"><GiSelfLove/></button>  
               </div>
             </div>
           </div>

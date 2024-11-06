@@ -14,6 +14,7 @@ const getAllFavorites = ()=>{
     }
 }
 
+
 const addFavorite=(product)=>{
     const favorites = getAllFavorites()
    
@@ -22,4 +23,28 @@ const addFavorite=(product)=>{
     localStorage.setItem('favorites', JSON.stringify(favorites))
     toast.success('Successfully added!');
 }
-export{getAllFavorites, addFavorite}
+
+const getAllWishlist = ()=>{
+    const all = localStorage.getItem('wishlist')
+    
+    if(all){
+        const wishlist = JSON.parse(all)
+        console.log(wishlist)
+        return wishlist
+       
+    }else {
+        console.log([])
+        return []
+    }
+}
+const addWishlist=(item)=>{
+    const wishlist = getAllWishlist()
+    console.log(wishlist)
+    
+    console.log(item)
+    wishlist.push(item)
+    localStorage.setItem('wishlist', JSON.stringify(wishlist))
+    toast.success('Successfully added!');
+}
+
+export{getAllFavorites, addFavorite, addWishlist, getAllWishlist}
