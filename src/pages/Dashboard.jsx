@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { getAllFavorites } from "../components/localStore"; 
+import { getAllFavorites } from "../components/localStore";
 import group from "../assets/Group.png";
 import { ImCross } from "react-icons/im";
 
 const Dashboard = () => {
-  const [showCards, setShowCards] = useState(true); 
+  const [showCards, setShowCards] = useState(true);
   const [products, setProducts] = useState([]);
   const [showModal, setShowModal] = useState(false);
 
@@ -18,11 +18,14 @@ const Dashboard = () => {
     setShowModal(false);
     setProducts([]);
   };
+
   const handleSortByPrice = () => {
     const sortedProducts = [...products].sort((a, b) => a.price - b.price);
     setProducts(sortedProducts);
   };
+
   document.title = "Dashboard";
+
   const totalCost = products.reduce(
     (total, product) => total + product.price,
     0
@@ -61,7 +64,9 @@ const Dashboard = () => {
       </div>
 
       <div className="w-11/12 mx-auto lg:flex items-center justify-between py-4 px-6 bg-gray-100 rounded-lg shadow-md mt-5">
-        <h2 className="text-xl font-semibold text-gray-700">Card</h2>
+        <h2 className="text-xl font-semibold text-gray-700">
+          {showCards ? "Card" : "Wishlist"}
+        </h2>
 
         <div className="flex flex-col lg:flex-row gap-3 mt-4 lg:mt-0 lg:items-center">
           <p className="text-lg font-medium text-gray-600">
@@ -69,12 +74,14 @@ const Dashboard = () => {
             <span className="text-gray-800">${totalCost.toFixed(2)}</span>
           </p>
 
-          <button
-            onClick={handleSortByPrice}
-            className="px-4 py-2 rounded-md text-white bg-blue-500 hover:bg-blue-600 transition duration-300 shadow-md"
-          >
-            Sort by Price
-          </button>
+          {showCards && (
+            <button
+              onClick={handleSortByPrice}
+              className="px-4 py-2 rounded-md text-white bg-blue-500 hover:bg-blue-600 transition duration-300 shadow-md"
+            >
+              Sort by Price
+            </button>
+          )}
 
           <button
             onClick={() => setShowModal(true)}
@@ -95,7 +102,7 @@ const Dashboard = () => {
             <h2 className="text-2xl font-extrabold mb-4 text-center font-bold">
               Payment Successfully
             </h2>
-            <p className="text-center text-2xl">Thanks for purchaing</p>
+            <p className="text-center text-2xl">Thanks for purchasing</p>
             <p className="mb-4 font-bold mt-3 text-center">
               Total cost: <strong> ${totalCost.toFixed(2)}</strong>
             </p>
@@ -112,38 +119,41 @@ const Dashboard = () => {
       )}
 
       <div className="w-11/12 mx-auto mt-10">
-       
         {showCards ? (
-          products.map((product) => (
-            <div key={product.id} className="hero bg-base-200 mb-4 lg:flex ">
-              <div className="w-full  lg:flex gap-8  flex-row items-center p-2 bg-gray-100 border rounded-lg">
-                <img
-                  src={product.product_image || "default_image.jpg"}
-                  alt={product.product_title || "Product Image"}
-                  className="w-[150px] h-18 object-cover rounded-lg shadow-2xl"
-                />
-                <div className="">
-                  <h1 className="lg:text-2xl text-lg font-bold">
-                    {product.product_title || "Product Title"}
-                  </h1>
-                  <p className="py-2">
-                    {product.description ||
-                      "No description available for this product."}
-                  </p>
-                  <p className="text-xl">
-                    <strong>Price:</strong> ${product.price || "N/A"}
-                  </p>
-                  <p className="text-xl">
-                    <strong>Rating:</strong> {product.rating || "N/A"} / 5
-                  </p>
-                  <div className="flex items-center mt-4"></div>
-                </div>
-                <div className="lg:ml-[900px]">
-                  <ImCross className="w-56 h-16  text-red-600" />
+          products.length > 0 ? (
+            products.map((product) => (
+              <div key={product.id} className="hero bg-base-200 mb-4 lg:flex ">
+                <div className="w-full  lg:flex gap-8  flex-row items-center p-2 bg-gray-100 border rounded-lg">
+                  <img
+                    src={product.product_image || "default_image.jpg"}
+                    alt={product.product_title || "Product Image"}
+                    className="w-[150px] h-18 object-cover rounded-lg shadow-2xl"
+                  />
+                  <div className="">
+                    <h1 className="lg:text-2xl text-lg font-bold">
+                      {product.product_title || "Product Title"}
+                    </h1>
+                    <p className="py-2">
+                      {product.description ||
+                        "No description available for this product."}
+                    </p>
+                    <p className="text-xl">
+                      <strong>Price:</strong> ${product.price || "N/A"}
+                    </p>
+                    <p className="text-xl">
+                      <strong>Rating:</strong> {product.rating || "N/A"} / 5
+                    </p>
+                    <div className="flex items-center mt-4"></div>
+                  </div>
+                  <div className="lg:ml-[900px]">
+                    <ImCross className="w-56 h-16  text-red-600" />
+                  </div>
                 </div>
               </div>
-            </div>
-          ))
+            ))
+          ) : (
+            <p className="text-center text-gray-500">No items in your cart.</p>
+          )
         ) : (
           <p className="text-center text-gray-500">
             Wishlist is currently empty.
