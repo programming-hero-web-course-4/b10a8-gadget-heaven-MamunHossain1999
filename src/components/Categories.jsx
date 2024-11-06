@@ -5,7 +5,7 @@ const Categories = ({ categories, product }) => {
   console.log(product);
   return (
     <div className="w-11/12 flex flex-col md:flex-row mx-auto gap-4 mb-6">
-      {/* Sidebar */}
+   
       <div
         role="tablist"
         className="w-full md:w-1/4 space-y-4 border mt-10 md:mt-20 border-gray-300 p-4 rounded-lg"
@@ -30,7 +30,6 @@ const Categories = ({ categories, product }) => {
         </div>
       </div>
 
-      {/* Content Area */}
       <div className="w-full md:w-3/4 p-4 mt-10 md:mt-20 border rounded-lg bg-white shadow-md">
         <Outlet />
       </div>

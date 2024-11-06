@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { getAllFavorites } from "../components/localStore"; // Assuming this function retrieves favorite products
+import { getAllFavorites } from "../components/localStore"; 
 import group from "../assets/Group.png";
 import { ImCross } from "react-icons/im";
 
 const Dashboard = () => {
-  const [showCards, setShowCards] = useState(true); // Initially show cards
+  const [showCards, setShowCards] = useState(true); 
   const [products, setProducts] = useState([]);
   const [showModal, setShowModal] = useState(false);
 
@@ -22,7 +22,7 @@ const Dashboard = () => {
     const sortedProducts = [...products].sort((a, b) => a.price - b.price);
     setProducts(sortedProducts);
   };
-
+  document.title = "Dashboard";
   const totalCost = products.reduce(
     (total, product) => total + product.price,
     0
@@ -88,10 +88,10 @@ const Dashboard = () => {
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-6  rounded-lg shadow-lg max-w-sm w-full">
-            <divc className="flex justify-center">
+            <div className="flex justify-center">
               {" "}
               <img className="w-24" src={group} alt="" />
-            </divc>
+            </div>
             <h2 className="text-2xl font-extrabold mb-4 text-center font-bold">
               Payment Successfully
             </h2>
@@ -112,7 +112,7 @@ const Dashboard = () => {
       )}
 
       <div className="w-11/12 mx-auto mt-10">
-        {/* <div className=""> */}
+       
         {showCards ? (
           products.map((product) => (
             <div key={product.id} className="hero bg-base-200 mb-4 lg:flex ">
@@ -138,7 +138,7 @@ const Dashboard = () => {
                   </p>
                   <div className="flex items-center mt-4"></div>
                 </div>
-                <div className="justify-end lg:pl-96">
+                <div className="lg:ml-[900px]">
                   <ImCross className="w-56 h-16  text-red-600" />
                 </div>
               </div>

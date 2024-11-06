@@ -16,8 +16,7 @@ const getAllFavorites = ()=>{
 
 const addFavorite=(product)=>{
     const favorites = getAllFavorites()
-    // const isExist = favorites.find(item => item.id == product.id)
-    // if(isExist) return 
+   
     console.log(favorites)
     favorites.push(product)
     localStorage.setItem('favorites', JSON.stringify(favorites))

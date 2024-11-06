@@ -11,9 +11,10 @@ const Navbar = () => {
       ? "bg-purple-600"
       : location.pathname === "/statistics"
       ? "bg-blue-600"
-      : location.pathname === "/dashBoard"
+      : location.pathname === "/dashboard" 
       ? "bg-green-600"
-      : "bg-gray-600";
+      : "bg-gray-600"; 
+
 
   return (
     <div className="w-11/12 mx-auto">
@@ -43,7 +44,7 @@ const Navbar = () => {
               <NavLink
                 to="/"
                 className={({ isActive }) =>
-                  `home ${isActive ? "text-warning " : "hover:text-warning"}`
+                  `home ${isActive ? "text-warning" : "hover:text-warning"}`
                 }
               >
                 Home
@@ -51,15 +52,15 @@ const Navbar = () => {
               <NavLink
                 to="/statistics"
                 className={({ isActive }) =>
-                  `${isActive ? "text-warning " : "hover:text-warning"}`
+                  `${isActive ? "text-warning" : "hover:text-warning"}`
                 }
               >
                 Statistics
               </NavLink>
               <NavLink
-                to="/dashBoard"
+                to="/dashboard" 
                 className={({ isActive }) =>
-                  `${isActive ? "text-warning " : "hover:text-warning"}`
+                  `${isActive ? "text-warning" : "hover:text-warning"}`
                 }
               >
                 Dashboard
@@ -73,11 +74,7 @@ const Navbar = () => {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                `home ${
-                  isActive
-                    ? " bg-lime-300 px-5 py-2 rounded-2xl text-black"
-                    : "hover:text-warning"
-                }`
+                `home ${isActive ? "bg-lime-300 px-5 py-2 rounded-2xl text-black" : "hover:text-warning"}`
               }
             >
               Home
@@ -85,23 +82,15 @@ const Navbar = () => {
             <NavLink
               to="/statistics"
               className={({ isActive }) =>
-                `${
-                  isActive
-                    ? " bg-lime-300 px-5 py-2 rounded-2xl text-black "
-                    : "hover:text-warning"
-                }`
+                `${isActive ? "bg-lime-300 px-5 py-2 rounded-2xl text-black" : "hover:text-warning"}`
               }
             >
               Statistics
             </NavLink>
             <NavLink
-              to="/dashBoard"
+              to="/dashboard"
               className={({ isActive }) =>
-                `${
-                  isActive
-                    ? " bg-lime-300 px-5 py-2 rounded-2xl text-black"
-                    : "hover:text-warning"
-                }`
+                `${isActive ? "bg-lime-300 px-5 py-2 rounded-2xl text-black" : "hover:text-warning"}`
               }
             >
               Dashboard

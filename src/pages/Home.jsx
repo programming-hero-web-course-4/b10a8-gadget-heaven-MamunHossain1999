@@ -1,14 +1,16 @@
 import React from 'react';
 import Banner from '../components/Banner';
 import Heading from '../components/Heading';
-import { Outlet, useLoaderData } from 'react-router-dom';
+import { useLoaderData } from 'react-router-dom';
 import Categories from '../components/Categories';
 
 
 const Home = () => {
     const categories = useLoaderData()
   
-    
+    document.title = "Home Page";{
+        
+    }
     return (
        <div className='w-11/12 mx-auto'>
             <Heading title={'Upgrade Your Tech Accessorize with Gadget Heaven Accessories'} subtitle={'Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!'}/>

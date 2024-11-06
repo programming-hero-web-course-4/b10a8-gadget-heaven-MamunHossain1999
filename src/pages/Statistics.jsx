@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Statistics = () => {
+    document.title = "Statistics";
     return (
         <div className='w-11/12 mx-auto '>
            
